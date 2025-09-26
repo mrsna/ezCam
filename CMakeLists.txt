@@ -31,6 +31,11 @@ target_link_libraries(ezCam
         Qt6::MultimediaWidgets
 )
 
+if(WIN32)
+    target_sources(ezCam PRIVATE ${CMAKE_SOURCE_DIR}/version.rc)
+endif()
+
+
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
     set(DEBUG_SUFFIX)
     if (MSVC AND CMAKE_BUILD_TYPE MATCHES "Debug")
