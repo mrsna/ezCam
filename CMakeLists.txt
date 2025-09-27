@@ -19,9 +19,9 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 add_executable(ezCam WIN32
-        main.cpp
-        MainWindow.h
-        MainWindow.cpp)
+        src/main.cpp
+        src/MainWindow.h
+        src/MainWindow.cpp)
 
 target_link_libraries(ezCam
         Qt::Core
