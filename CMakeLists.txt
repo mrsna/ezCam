@@ -64,3 +64,12 @@ if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>")
     endforeach (QT_LIB)
 endif ()
+
+if(WIN32)
+    set(WINDEPLOYQT_EXECUTABLE "C:/Qt/6.9.2/mingw_64/bin/windeployqt.exe") # anpassen
+
+    add_custom_command(TARGET ezCam POST_BUILD
+            COMMAND "${WINDEPLOYQT_EXECUTABLE}" --release \"$<TARGET_FILE:ezCam>\"
+            COMMENT "Running windeployqt on ezCam"
+    )
+endif()
