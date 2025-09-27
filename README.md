@@ -1,6 +1,6 @@
 # ezCam 🎥
 
-[![Latest Release](https://img.shields.io/github/v/release/mrsna/ezCam)](link-to-release)
+[![Latest Release](https://img.shields.io/github/v/release/mrsna/ezCam)](https://github.com/mrsna/ezCam/releases/latest)
 [![License](https://img.shields.io/github/license/mrsna/ezCam)](LICENSE.md)
 [![Windows Tested](https://img.shields.io/badge/Windows-10%2F11-blue)](https://www.microsoft.com)
 
@@ -20,7 +20,7 @@
 - Support for **Linux** and **macOS**
 
 ## Installation (Windows) 💻
-1. Download the latest Windows release: [Release 0.0.1](link-to-release)
+1. Download the latest Windows release: [Release 0.0.1](https://github.com/mrsna/ezCam/releases/latest)
 2. Extract the files and run `ezCam.exe`.
 3. Tested on **Windows 10/11**
 
