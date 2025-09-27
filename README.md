@@ -1,7 +1,6 @@
 # ezCam 🎥
 
 [![Latest Release](https://img.shields.io/github/v/release/mrsna/ezCam)](https://github.com/mrsna/ezCam/releases/latest)
-[![License](https://img.shields.io/github/license/mrsna/ezCam)](LICENSE.md)
 [![Windows Tested](https://img.shields.io/badge/Windows-10%2F11-blue)](https://www.microsoft.com)
 
 **ezCam** is a simple webcam viewer built with **C++** and **Qt6**. It supports **fullscreen mode** and allows you to quickly switch between multiple webcams. It's especially useful if you have a capture card and want to check your input quickly.
@@ -25,7 +24,7 @@
 3. Tested on **Windows 10/11**
 
 ## License 📄
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
